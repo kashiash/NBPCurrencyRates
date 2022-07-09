@@ -11,6 +11,12 @@
 		A36005AE2879A18D009F5B32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005AD2879A18D009F5B32 /* ContentView.swift */; };
 		A36005B02879A18E009F5B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36005AF2879A18E009F5B32 /* Assets.xcassets */; };
 		A36005B32879A18E009F5B32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36005B22879A18E009F5B32 /* Preview Assets.xcassets */; };
+		A36005BD2879A1F3009F5B32 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005BC2879A1F3009F5B32 /* Home.swift */; };
+		A36005BF2879A3A8009F5B32 /* currencyrates.json in Resources */ = {isa = PBXBuildFile; fileRef = A36005BE2879A3A8009F5B32 /* currencyrates.json */; };
+		A36005C12879A3F2009F5B32 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C02879A3F2009F5B32 /* CurrencyModel.swift */; };
+		A36005C32879AC53009F5B32 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C22879AC53009F5B32 /* AppViewModel.swift */; };
+		A36005C52879F535009F5B32 /* DailyCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C42879F535009F5B32 /* DailyCTable.swift */; };
+		A36005C7287A0528009F5B32 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C6287A0528009F5B32 /* SelectSomethingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		A36005AD2879A18D009F5B32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A36005AF2879A18E009F5B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36005B22879A18E009F5B32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A36005BC2879A1F3009F5B32 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A36005BE2879A3A8009F5B32 /* currencyrates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = currencyrates.json; sourceTree = "<group>"; };
+		A36005C02879A3F2009F5B32 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		A36005C22879AC53009F5B32 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		A36005C42879F535009F5B32 /* DailyCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCTable.swift; sourceTree = "<group>"; };
+		A36005C6287A0528009F5B32 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,9 @@
 		A36005AA2879A18D009F5B32 /* NBPCurrencyRates */ = {
 			isa = PBXGroup;
 			children = (
+				A36005BB2879A1BF009F5B32 /* View */,
+				A36005BA2879A1B3009F5B32 /* ViewModel */,
+				A36005B92879A1AC009F5B32 /* Model */,
 				A36005AB2879A18D009F5B32 /* NBPCurrencyRatesApp.swift */,
 				A36005AD2879A18D009F5B32 /* ContentView.swift */,
 				A36005AF2879A18E009F5B32 /* Assets.xcassets */,
@@ -63,8 +78,35 @@
 			isa = PBXGroup;
 			children = (
 				A36005B22879A18E009F5B32 /* Preview Assets.xcassets */,
+				A36005BE2879A3A8009F5B32 /* currencyrates.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A36005B92879A1AC009F5B32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A36005C02879A3F2009F5B32 /* CurrencyModel.swift */,
+				A36005C42879F535009F5B32 /* DailyCTable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A36005BA2879A1B3009F5B32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A36005C22879AC53009F5B32 /* AppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A36005BB2879A1BF009F5B32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A36005BC2879A1F3009F5B32 /* Home.swift */,
+				A36005C6287A0528009F5B32 /* SelectSomethingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36005BF2879A3A8009F5B32 /* currencyrates.json in Resources */,
 				A36005B32879A18E009F5B32 /* Preview Assets.xcassets in Resources */,
 				A36005B02879A18E009F5B32 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36005C32879AC53009F5B32 /* AppViewModel.swift in Sources */,
 				A36005AE2879A18D009F5B32 /* ContentView.swift in Sources */,
+				A36005BD2879A1F3009F5B32 /* Home.swift in Sources */,
+				A36005C7287A0528009F5B32 /* SelectSomethingView.swift in Sources */,
+				A36005C52879F535009F5B32 /* DailyCTable.swift in Sources */,
+				A36005C12879A3F2009F5B32 /* CurrencyModel.swift in Sources */,
 				A36005AC2879A18D009F5B32 /* NBPCurrencyRatesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

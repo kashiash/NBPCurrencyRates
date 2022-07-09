@@ -11,7 +11,10 @@ import SwiftUI
 struct NBPCurrencyRatesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+                SelectSomethingView()
+            }
         }
     }
 }

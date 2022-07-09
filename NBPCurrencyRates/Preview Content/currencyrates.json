@@ -1,0 +1,507 @@
+{
+    "table": "A",
+    "currency": "dolar amerykański",
+    "code": "USD",
+    "rates": [
+        {
+            "no": "032/A/NBP/2022",
+            "effectiveDate": "2022-02-16",
+            "mid": 3.9478
+        },
+        {
+            "no": "033/A/NBP/2022",
+            "effectiveDate": "2022-02-17",
+            "mid": 3.9687
+        },
+        {
+            "no": "034/A/NBP/2022",
+            "effectiveDate": "2022-02-18",
+            "mid": 3.9798
+        },
+        {
+            "no": "035/A/NBP/2022",
+            "effectiveDate": "2022-02-21",
+            "mid": 3.9769
+        },
+        {
+            "no": "036/A/NBP/2022",
+            "effectiveDate": "2022-02-22",
+            "mid": 4.0120
+        },
+        {
+            "no": "037/A/NBP/2022",
+            "effectiveDate": "2022-02-23",
+            "mid": 3.9937
+        },
+        {
+            "no": "038/A/NBP/2022",
+            "effectiveDate": "2022-02-24",
+            "mid": 4.1281
+        },
+        {
+            "no": "039/A/NBP/2022",
+            "effectiveDate": "2022-02-25",
+            "mid": 4.1683
+        },
+        {
+            "no": "040/A/NBP/2022",
+            "effectiveDate": "2022-02-28",
+            "mid": 4.1965
+        },
+        {
+            "no": "041/A/NBP/2022",
+            "effectiveDate": "2022-03-01",
+            "mid": 4.2193
+        },
+        {
+            "no": "042/A/NBP/2022",
+            "effectiveDate": "2022-03-02",
+            "mid": 4.3302
+        },
+        {
+            "no": "043/A/NBP/2022",
+            "effectiveDate": "2022-03-03",
+            "mid": 4.3257
+        },
+        {
+            "no": "044/A/NBP/2022",
+            "effectiveDate": "2022-03-04",
+            "mid": 4.3910
+        },
+        {
+            "no": "045/A/NBP/2022",
+            "effectiveDate": "2022-03-07",
+            "mid": 4.5722
+        },
+        {
+            "no": "046/A/NBP/2022",
+            "effectiveDate": "2022-03-08",
+            "mid": 4.5115
+        },
+        {
+            "no": "047/A/NBP/2022",
+            "effectiveDate": "2022-03-09",
+            "mid": 4.4147
+        },
+        {
+            "no": "048/A/NBP/2022",
+            "effectiveDate": "2022-03-10",
+            "mid": 4.3482
+        },
+        {
+            "no": "049/A/NBP/2022",
+            "effectiveDate": "2022-03-11",
+            "mid": 4.3694
+        },
+        {
+            "no": "050/A/NBP/2022",
+            "effectiveDate": "2022-03-14",
+            "mid": 4.3221
+        },
+        {
+            "no": "051/A/NBP/2022",
+            "effectiveDate": "2022-03-15",
+            "mid": 4.2992
+        },
+        {
+            "no": "052/A/NBP/2022",
+            "effectiveDate": "2022-03-16",
+            "mid": 4.2828
+        },
+        {
+            "no": "053/A/NBP/2022",
+            "effectiveDate": "2022-03-17",
+            "mid": 4.2403
+        },
+        {
+            "no": "054/A/NBP/2022",
+            "effectiveDate": "2022-03-18",
+            "mid": 4.2707
+        },
+        {
+            "no": "055/A/NBP/2022",
+            "effectiveDate": "2022-03-21",
+            "mid": 4.2444
+        },
+        {
+            "no": "056/A/NBP/2022",
+            "effectiveDate": "2022-03-22",
+            "mid": 4.2720
+        },
+        {
+            "no": "057/A/NBP/2022",
+            "effectiveDate": "2022-03-23",
+            "mid": 4.2772
+        },
+        {
+            "no": "058/A/NBP/2022",
+            "effectiveDate": "2022-03-24",
+            "mid": 4.3310
+        },
+        {
+            "no": "059/A/NBP/2022",
+            "effectiveDate": "2022-03-25",
+            "mid": 4.3125
+        },
+        {
+            "no": "060/A/NBP/2022",
+            "effectiveDate": "2022-03-28",
+            "mid": 4.2784
+        },
+        {
+            "no": "061/A/NBP/2022",
+            "effectiveDate": "2022-03-29",
+            "mid": 4.2917
+        },
+        {
+            "no": "062/A/NBP/2022",
+            "effectiveDate": "2022-03-30",
+            "mid": 4.1688
+        },
+        {
+            "no": "063/A/NBP/2022",
+            "effectiveDate": "2022-03-31",
+            "mid": 4.1801
+        },
+        {
+            "no": "064/A/NBP/2022",
+            "effectiveDate": "2022-04-01",
+            "mid": 4.1978
+        },
+        {
+            "no": "065/A/NBP/2022",
+            "effectiveDate": "2022-04-04",
+            "mid": 4.2073
+        },
+        {
+            "no": "066/A/NBP/2022",
+            "effectiveDate": "2022-04-05",
+            "mid": 4.2233
+        },
+        {
+            "no": "067/A/NBP/2022",
+            "effectiveDate": "2022-04-06",
+            "mid": 4.2606
+        },
+        {
+            "no": "068/A/NBP/2022",
+            "effectiveDate": "2022-04-07",
+            "mid": 4.2727
+        },
+        {
+            "no": "069/A/NBP/2022",
+            "effectiveDate": "2022-04-08",
+            "mid": 4.2703
+        },
+        {
+            "no": "070/A/NBP/2022",
+            "effectiveDate": "2022-04-11",
+            "mid": 4.2586
+        },
+        {
+            "no": "071/A/NBP/2022",
+            "effectiveDate": "2022-04-12",
+            "mid": 4.2926
+        },
+        {
+            "no": "072/A/NBP/2022",
+            "effectiveDate": "2022-04-13",
+            "mid": 4.2872
+        },
+        {
+            "no": "073/A/NBP/2022",
+            "effectiveDate": "2022-04-14",
+            "mid": 4.2581
+        },
+        {
+            "no": "074/A/NBP/2022",
+            "effectiveDate": "2022-04-15",
+            "mid": 4.2865
+        },
+        {
+            "no": "075/A/NBP/2022",
+            "effectiveDate": "2022-04-19",
+            "mid": 4.2887
+        },
+        {
+            "no": "076/A/NBP/2022",
+            "effectiveDate": "2022-04-20",
+            "mid": 4.2708
+        },
+        {
+            "no": "077/A/NBP/2022",
+            "effectiveDate": "2022-04-21",
+            "mid": 4.2596
+        },
+        {
+            "no": "078/A/NBP/2022",
+            "effectiveDate": "2022-04-22",
+            "mid": 4.2935
+        },
+        {
+            "no": "079/A/NBP/2022",
+            "effectiveDate": "2022-04-25",
+            "mid": 4.3188
+        },
+        {
+            "no": "080/A/NBP/2022",
+            "effectiveDate": "2022-04-26",
+            "mid": 4.3469
+        },
+        {
+            "no": "081/A/NBP/2022",
+            "effectiveDate": "2022-04-27",
+            "mid": 4.4453
+        },
+        {
+            "no": "082/A/NBP/2022",
+            "effectiveDate": "2022-04-28",
+            "mid": 4.4613
+        },
+        {
+            "no": "083/A/NBP/2022",
+            "effectiveDate": "2022-04-29",
+            "mid": 4.4072
+        },
+        {
+            "no": "084/A/NBP/2022",
+            "effectiveDate": "2022-05-02",
+            "mid": 4.4454
+        },
+        {
+            "no": "085/A/NBP/2022",
+            "effectiveDate": "2022-05-04",
+            "mid": 4.4456
+        },
+        {
+            "no": "086/A/NBP/2022",
+            "effectiveDate": "2022-05-05",
+            "mid": 4.4017
+        },
+        {
+            "no": "087/A/NBP/2022",
+            "effectiveDate": "2022-05-06",
+            "mid": 4.4502
+        },
+        {
+            "no": "088/A/NBP/2022",
+            "effectiveDate": "2022-05-09",
+            "mid": 4.4784
+        },
+        {
+            "no": "089/A/NBP/2022",
+            "effectiveDate": "2022-05-10",
+            "mid": 4.4223
+        },
+        {
+            "no": "090/A/NBP/2022",
+            "effectiveDate": "2022-05-11",
+            "mid": 4.4190
+        },
+        {
+            "no": "091/A/NBP/2022",
+            "effectiveDate": "2022-05-12",
+            "mid": 4.4863
+        },
+        {
+            "no": "092/A/NBP/2022",
+            "effectiveDate": "2022-05-13",
+            "mid": 4.4849
+        },
+        {
+            "no": "093/A/NBP/2022",
+            "effectiveDate": "2022-05-16",
+            "mid": 4.4785
+        },
+        {
+            "no": "094/A/NBP/2022",
+            "effectiveDate": "2022-05-17",
+            "mid": 4.4379
+        },
+        {
+            "no": "095/A/NBP/2022",
+            "effectiveDate": "2022-05-18",
+            "mid": 4.4279
+        },
+        {
+            "no": "096/A/NBP/2022",
+            "effectiveDate": "2022-05-19",
+            "mid": 4.4231
+        },
+        {
+            "no": "097/A/NBP/2022",
+            "effectiveDate": "2022-05-20",
+            "mid": 4.3832
+        },
+        {
+            "no": "098/A/NBP/2022",
+            "effectiveDate": "2022-05-23",
+            "mid": 4.3369
+        },
+        {
+            "no": "099/A/NBP/2022",
+            "effectiveDate": "2022-05-24",
+            "mid": 4.3071
+        },
+        {
+            "no": "100/A/NBP/2022",
+            "effectiveDate": "2022-05-25",
+            "mid": 4.3069
+        },
+        {
+            "no": "101/A/NBP/2022",
+            "effectiveDate": "2022-05-26",
+            "mid": 4.3189
+        },
+        {
+            "no": "102/A/NBP/2022",
+            "effectiveDate": "2022-05-27",
+            "mid": 4.2966
+        },
+        {
+            "no": "103/A/NBP/2022",
+            "effectiveDate": "2022-05-30",
+            "mid": 4.2617
+        },
+        {
+            "no": "104/A/NBP/2022",
+            "effectiveDate": "2022-05-31",
+            "mid": 4.2651
+        },
+        {
+            "no": "105/A/NBP/2022",
+            "effectiveDate": "2022-06-01",
+            "mid": 4.2817
+        },
+        {
+            "no": "106/A/NBP/2022",
+            "effectiveDate": "2022-06-02",
+            "mid": 4.2931
+        },
+        {
+            "no": "107/A/NBP/2022",
+            "effectiveDate": "2022-06-03",
+            "mid": 4.2689
+        },
+        {
+            "no": "108/A/NBP/2022",
+            "effectiveDate": "2022-06-06",
+            "mid": 4.2675
+        },
+        {
+            "no": "109/A/NBP/2022",
+            "effectiveDate": "2022-06-07",
+            "mid": 4.2935
+        },
+        {
+            "no": "110/A/NBP/2022",
+            "effectiveDate": "2022-06-08",
+            "mid": 4.2904
+        },
+        {
+            "no": "111/A/NBP/2022",
+            "effectiveDate": "2022-06-09",
+            "mid": 4.2764
+        },
+        {
+            "no": "112/A/NBP/2022",
+            "effectiveDate": "2022-06-10",
+            "mid": 4.3363
+        },
+        {
+            "no": "113/A/NBP/2022",
+            "effectiveDate": "2022-06-13",
+            "mid": 4.4209
+        },
+        {
+            "no": "114/A/NBP/2022",
+            "effectiveDate": "2022-06-14",
+            "mid": 4.4478
+        },
+        {
+            "no": "115/A/NBP/2022",
+            "effectiveDate": "2022-06-15",
+            "mid": 4.4455
+        },
+        {
+            "no": "116/A/NBP/2022",
+            "effectiveDate": "2022-06-17",
+            "mid": 4.4630
+        },
+        {
+            "no": "117/A/NBP/2022",
+            "effectiveDate": "2022-06-20",
+            "mid": 4.4400
+        },
+        {
+            "no": "118/A/NBP/2022",
+            "effectiveDate": "2022-06-21",
+            "mid": 4.3917
+        },
+        {
+            "no": "119/A/NBP/2022",
+            "effectiveDate": "2022-06-22",
+            "mid": 4.4338
+        },
+        {
+            "no": "120/A/NBP/2022",
+            "effectiveDate": "2022-06-23",
+            "mid": 4.4881
+        },
+        {
+            "no": "121/A/NBP/2022",
+            "effectiveDate": "2022-06-24",
+            "mid": 4.4656
+        },
+        {
+            "no": "122/A/NBP/2022",
+            "effectiveDate": "2022-06-27",
+            "mid": 4.4369
+        },
+        {
+            "no": "123/A/NBP/2022",
+            "effectiveDate": "2022-06-28",
+            "mid": 4.4377
+        },
+        {
+            "no": "124/A/NBP/2022",
+            "effectiveDate": "2022-06-29",
+            "mid": 4.4533
+        },
+        {
+            "no": "125/A/NBP/2022",
+            "effectiveDate": "2022-06-30",
+            "mid": 4.4825
+        },
+        {
+            "no": "126/A/NBP/2022",
+            "effectiveDate": "2022-07-01",
+            "mid": 4.5106
+        },
+        {
+            "no": "127/A/NBP/2022",
+            "effectiveDate": "2022-07-04",
+            "mid": 4.5032
+        },
+        {
+            "no": "128/A/NBP/2022",
+            "effectiveDate": "2022-07-05",
+            "mid": 4.5947
+        },
+        {
+            "no": "129/A/NBP/2022",
+            "effectiveDate": "2022-07-06",
+            "mid": 4.6796
+        },
+        {
+            "no": "130/A/NBP/2022",
+            "effectiveDate": "2022-07-07",
+            "mid": 4.7029
+        },
+        {
+            "no": "131/A/NBP/2022",
+            "effectiveDate": "2022-07-08",
+            "mid": 4.7417
+        }
+    ]
+}
