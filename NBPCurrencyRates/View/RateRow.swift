@@ -11,7 +11,7 @@ struct RateRow: View {
     let rate: CurrencyCRate
     var body: some View {
         NavigationLink {
-            Text(rate.currency)
+            CurrencyDetail(rate:rate)
         } label: {
             HStack{
                 Text(rate.id).font(.title)

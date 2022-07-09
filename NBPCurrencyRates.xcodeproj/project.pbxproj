@@ -19,6 +19,8 @@
 		A36005C7287A0528009F5B32 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C6287A0528009F5B32 /* SelectSomethingView.swift */; };
 		A36005C9287A0822009F5B32 /* TableCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C8287A0822009F5B32 /* TableCView.swift */; };
 		A36005CB287A279F009F5B32 /* RateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005CA287A279F009F5B32 /* RateRow.swift */; };
+		A36005CD287A2AE7009F5B32 /* CurrencyCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005CC287A2AE7009F5B32 /* CurrencyCTable.swift */; };
+		A36005CF287A2C90009F5B32 /* CurrencyDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005CE287A2C90009F5B32 /* CurrencyDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		A36005C6287A0528009F5B32 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		A36005C8287A0822009F5B32 /* TableCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCView.swift; sourceTree = "<group>"; };
 		A36005CA287A279F009F5B32 /* RateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateRow.swift; sourceTree = "<group>"; };
+		A36005CC287A2AE7009F5B32 /* CurrencyCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCTable.swift; sourceTree = "<group>"; };
+		A36005CE287A2C90009F5B32 /* CurrencyDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 			children = (
 				A36005C02879A3F2009F5B32 /* CurrencyModel.swift */,
 				A36005C42879F535009F5B32 /* DailyCTable.swift */,
+				A36005CC287A2AE7009F5B32 /* CurrencyCTable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 				A36005C6287A0528009F5B32 /* SelectSomethingView.swift */,
 				A36005C8287A0822009F5B32 /* TableCView.swift */,
 				A36005CA287A279F009F5B32 /* RateRow.swift */,
+				A36005CE287A2C90009F5B32 /* CurrencyDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,8 +194,10 @@
 			files = (
 				A36005C32879AC53009F5B32 /* AppViewModel.swift in Sources */,
 				A36005C9287A0822009F5B32 /* TableCView.swift in Sources */,
+				A36005CD287A2AE7009F5B32 /* CurrencyCTable.swift in Sources */,
 				A36005AE2879A18D009F5B32 /* ContentView.swift in Sources */,
 				A36005BD2879A1F3009F5B32 /* Home.swift in Sources */,
+				A36005CF287A2C90009F5B32 /* CurrencyDetail.swift in Sources */,
 				A36005C7287A0528009F5B32 /* SelectSomethingView.swift in Sources */,
 				A36005C52879F535009F5B32 /* DailyCTable.swift in Sources */,
 				A36005C12879A3F2009F5B32 /* CurrencyModel.swift in Sources */,
