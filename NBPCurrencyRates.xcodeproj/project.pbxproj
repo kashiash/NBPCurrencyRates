@@ -17,6 +17,8 @@
 		A36005C32879AC53009F5B32 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C22879AC53009F5B32 /* AppViewModel.swift */; };
 		A36005C52879F535009F5B32 /* DailyCTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C42879F535009F5B32 /* DailyCTable.swift */; };
 		A36005C7287A0528009F5B32 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C6287A0528009F5B32 /* SelectSomethingView.swift */; };
+		A36005C9287A0822009F5B32 /* TableCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005C8287A0822009F5B32 /* TableCView.swift */; };
+		A36005CB287A279F009F5B32 /* RateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36005CA287A279F009F5B32 /* RateRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A36005C22879AC53009F5B32 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		A36005C42879F535009F5B32 /* DailyCTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCTable.swift; sourceTree = "<group>"; };
 		A36005C6287A0528009F5B32 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		A36005C8287A0822009F5B32 /* TableCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCView.swift; sourceTree = "<group>"; };
+		A36005CA287A279F009F5B32 /* RateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			children = (
 				A36005BC2879A1F3009F5B32 /* Home.swift */,
 				A36005C6287A0528009F5B32 /* SelectSomethingView.swift */,
+				A36005C8287A0822009F5B32 /* TableCView.swift */,
+				A36005CA287A279F009F5B32 /* RateRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,11 +187,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36005C32879AC53009F5B32 /* AppViewModel.swift in Sources */,
+				A36005C9287A0822009F5B32 /* TableCView.swift in Sources */,
 				A36005AE2879A18D009F5B32 /* ContentView.swift in Sources */,
 				A36005BD2879A1F3009F5B32 /* Home.swift in Sources */,
 				A36005C7287A0528009F5B32 /* SelectSomethingView.swift in Sources */,
 				A36005C52879F535009F5B32 /* DailyCTable.swift in Sources */,
 				A36005C12879A3F2009F5B32 /* CurrencyModel.swift in Sources */,
+				A36005CB287A279F009F5B32 /* RateRow.swift in Sources */,
 				A36005AC2879A18D009F5B32 /* NBPCurrencyRatesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

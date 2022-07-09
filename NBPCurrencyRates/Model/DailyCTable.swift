@@ -23,6 +23,7 @@ struct CurrencyCRate: Codable, Identifiable{
 
 
     }
+    static let example = CurrencyCRate(id: "EUR", bid: 4.6579, ask: 4.7519, currency: "euro radzieckie")
 }
 
 struct DailyCTable: Codable{
@@ -33,9 +34,8 @@ struct DailyCTable: Codable{
     var effectiveDate: String
     var rates: [CurrencyCRate]
     
-
+    static let example = DailyCTable(no: "131/C/NBP/2022", table: "C", tradingDate: "2022-07-07", effectiveDate: "2022-07-08", rates: [CurrencyCRate.example])
 }
 
-// JSON URL
-let url = URL(string: "https://api.nbp.pl/api/exchangerates/tables/C/")
+
 

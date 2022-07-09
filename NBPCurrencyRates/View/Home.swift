@@ -51,23 +51,7 @@ struct Home: View {
         .navigationTitle("NBP rates")
 
     }
-//    @Sendable func downloadCurrencyTable() async {
-//        do {
-//            let urlC = URL(string: "http://api.nbp.pl/api/exchangerates/tables/C/")
-//            let url = URL(string: "https://api.nbp.pl/api/exchangerates/rates/A/\(currentCurrency)/last/100")!
-//            let (data, _) = try await URLSession.shared.data(from: urlC)
-//
-//            let decoder = JSONDecoder()
-//            decoder.dateDecodingStrategy = .iso8601
-//
-//           let tableTmp = try decoder.decode(CurrencyModel.self, from: data)
-//           table.append(tableTmp)
-//            currentTable = tableTmp
-//        } catch {
-//            print(error.localizedDescription)
-//        }
-//
-//    }
+
     
     
 //    @ViewBuilder

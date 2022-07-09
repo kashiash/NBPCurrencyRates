@@ -22,7 +22,8 @@ class AppViewModel: ObservableObject {
     }
 
     func fetchNbpData() async throws{
-        guard let url = url else {return}
+        let url = URL(string: "https://api.nbp.pl/api/exchangerates/tables/C/")!
+       
         let session = URLSession.shared
         let response = try await session.data(from:url)
         let jsonData = try JSONDecoder().decode([DailyCTable].self, from: response.0)

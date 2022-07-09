@@ -10,7 +10,7 @@ import SwiftUI
 struct SelectSomethingView: View {
     var body: some View {
         VStack(spacing: 10){
-            Image(systemName: "coloncurrencysign")
+            Image(systemName: "newspaper")
                 .font(.largeTitle)
                 .foregroundColor(.accentColor)
             Text("Kursy walut od jaszczompia")
