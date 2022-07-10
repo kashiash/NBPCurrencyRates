@@ -21,8 +21,7 @@ struct CurrencyDetail: View {
     
     
     var body: some View {
-        HStack{
-        Text("TEST")
+
         
         Group{
             switch loadState {
@@ -32,6 +31,16 @@ struct CurrencyDetail: View {
                     ProgressView()
                 }
             case .success:
+                VStack{
+                
+                VStack(alignment: .leading, spacing: 5) {
+                    Text(rate.currency)
+                        .font(.callout)
+                    Text(rate.id.uppercased())
+                        .font(.caption)
+                        .foregroundColor(.gray)
+                }
+                
                 List(rates) { item in
                     HStack{
                         Text(item.effectiveDate)
@@ -54,6 +63,7 @@ struct CurrencyDetail: View {
                         }
                     }
                 }
+                }
             case .failed:
                 VStack {
                     Text("Coś poszło nie tak ...")
@@ -68,7 +78,7 @@ struct CurrencyDetail: View {
         }
         .navigationTitle("Kursy historyczne")
         .task(downloadCurrencyTable)
-    }
+   
     
     }
     
@@ -84,7 +94,7 @@ struct CurrencyDetail: View {
            let table = try decoder.decode(CurrencyCTable.self, from: data)
          
        
-               rates = table.rates
+            rates = table.rates.sorted{ $0.effectiveDate > $1.effectiveDate}
           
             loadState = .success
         } catch {

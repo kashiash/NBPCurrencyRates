@@ -11,7 +11,7 @@ struct TableCView: View {
     @State private var tables = [DailyCTable]()
     @State private var rates = [CurrencyCRate]()
     @State private var loadState = LoadState.loading
-    
+    @State private var currentDay = ""
     enum LoadState {
         case loading, success, failed
     }
@@ -20,6 +20,14 @@ struct TableCView: View {
     
     
     var body: some View {
+        //ScrollView{
+        
+        
+        VStack(alignment: .leading, spacing: 5) {
+            Text(currentDay.uppercased())
+                .font(.caption)
+                .foregroundColor(.gray)
+        }
         
         Group{
             switch loadState {
@@ -29,27 +37,29 @@ struct TableCView: View {
                     ProgressView()
                 }
             case .success:
-                List(rates) { rate in
-                    RateRow(rate: rate)
-                }
-            case .failed:
-                VStack {
-                    Text("Coś poszło nie tak ...")
-                    Button("Załaduj ponownie") {
-                        loadState = .loading
-                        Task{
-                            await downloadCurrencyTable()
+              
+                    List(rates) { rate in
+                        RateRow(rate: rate)
+                    }
+               
+                case .failed:
+                    VStack {
+                        Text("Coś poszło nie tak ...")
+                        Button("Załaduj ponownie") {
+                            loadState = .loading
+                            Task{
+                                await downloadCurrencyTable()
+                            }
                         }
                     }
-                }
             }
         }
-        
+      //  }
         
         .navigationTitle("Kusy Walut NBP")
         .task(downloadCurrencyTable)
         .refreshable(action: downloadCurrencyTable)
-        
+      
     }
     
     
@@ -65,7 +75,8 @@ struct TableCView: View {
             tables = try decoder.decode([DailyCTable].self, from: data)
             if tables.count > 0 {
                 let table = tables[0]
-                rates = table.rates
+                currentDay = table.effectiveDate
+                rates = table.rates.sorted{$0.id < $1.id}
             }
             loadState = .success
         } catch {
